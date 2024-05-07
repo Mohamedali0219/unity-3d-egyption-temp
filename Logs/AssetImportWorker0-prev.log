@@ -1,0 +1,537 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.22f1 (887be4894c44) revision 8944612'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 8061 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Moham/OneDrive/Desktop/My project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59613
+Successfully changed project path to: C:/Users/Moham/OneDrive/Desktop/My project
+C:/Users/Moham/OneDrive/Desktop/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [28860] Host "[IP] 192.168.1.20 [Port] 0 [Flags] 2 [Guid] 2791616101 [EditorId] 2791616101 [Version] 1048832 [Id] WindowsEditor(7,PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [28860] Host "[IP] 192.168.1.20 [Port] 0 [Flags] 2 [Guid] 2791616101 [EditorId] 2791616101 [Version] 1048832 [Id] WindowsEditor(7,PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 19.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.22f1 (887be4894c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Moham/OneDrive/Desktop/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   30.0.14.7219
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56784
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007952 seconds.
+- Loaded All Assemblies, in  0.624 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.349 seconds
+Domain Reload Profiling: 972ms
+	BeginReloadAssembly (246ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (221ms)
+		LoadAssemblies (243ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (219ms)
+			TypeCache.Refresh (217ms)
+				TypeCache.ScanAssembly (195ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (350ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (267ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (185ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.272 seconds
+Refreshing native plugins compatible for Editor in 3.60 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.768 seconds
+Domain Reload Profiling: 2037ms
+	BeginReloadAssembly (299ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (835ms)
+		LoadAssemblies (776ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (234ms)
+			TypeCache.Refresh (206ms)
+				TypeCache.ScanAssembly (185ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (768ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (563ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (443ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 8.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3093 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.4 KB). Loaded Objects now: 3568.
+Memory consumption went from 130.6 MB to 130.5 MB.
+Total: 7.548900 ms (FindLiveObjects: 0.583100 ms CreateObjectMapping: 0.274300 ms MarkObjects: 6.440100 ms  DeleteObjects: 0.249300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 876578.367571 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(7d9081502b59e8a498bd7536ff690135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(7d9081502b59e8a498bd7536ff690135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74a5c1863966568fe1d4be007d11f76') in 0.026489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 21.273287 seconds.
+  path: Assets/egyptian-temple
+  artifactKey: Guid(4b5878b6acc471a488d300beeed55939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/egyptian-temple using Guid(4b5878b6acc471a488d300beeed55939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f42f3845ed1a7621e4f4fb19ff89724') in 0.001035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.849491 seconds.
+  path: Assets/egyptian-temple/source
+  artifactKey: Guid(98b4a7a7c348855468b5c04deacf4b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/egyptian-temple/source using Guid(98b4a7a7c348855468b5c04deacf4b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40eea64b787841bbf0b79b143a4c917') in 0.000538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.072531 seconds.
+  path: Assets/egyptian-temple/source/LP_Templo_Egipcio_ULTIMATE v3.fbx
+  artifactKey: Guid(cb506d98b2cab514c9f2a412da847f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/egyptian-temple/source/LP_Templo_Egipcio_ULTIMATE v3.fbx using Guid(cb506d98b2cab514c9f2a412da847f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff9aefc763f57afc48b766e6635c07f5') in 0.041712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 1310.020704 seconds.
+  path: Assets/egyptian-temple/templo_egipcio
+  artifactKey: Guid(16870d474293b054791d737354783d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/egyptian-temple/templo_egipcio using Guid(16870d474293b054791d737354783d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0efe2db602a4cd5f416d004336ab1ec5') in 0.003412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.082656 seconds.
+  path: Assets/egyptian-temple/templo_egipcio/__auto_3.jpg
+  artifactKey: Guid(12f5868f9440bd6468e013b61930a360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/egyptian-temple/templo_egipcio/__auto_3.jpg using Guid(12f5868f9440bd6468e013b61930a360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4325d0bdfd970d52c10d04a62f394a4') in 0.121529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/egyptian-temple/templo_egipcio/__auto_11.jpg
+  artifactKey: Guid(67200b861ce99ce4986dad4e4f29fa5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/egyptian-temple/templo_egipcio/__auto_11.jpg using Guid(67200b861ce99ce4986dad4e4f29fa5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675756ffa4a633a16bd631dc0dea7681') in 0.025968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/egyptian-temple/templo_egipcio/__auto_10.jpg
+  artifactKey: Guid(f398642fa2fa8734880864db658956bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/egyptian-temple/templo_egipcio/__auto_10.jpg using Guid(f398642fa2fa8734880864db658956bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c161109a3882d19a19803fe8b0b919') in 0.034125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/egyptian-temple/templo_egipcio/__auto_12.jpg
+  artifactKey: Guid(aae3c6a0454d5194eb6b15056d64c91f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/egyptian-temple/templo_egipcio/__auto_12.jpg using Guid(aae3c6a0454d5194eb6b15056d64c91f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1509f48a19a672388abaa8729928d80') in 0.028374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/egyptian-temple/templo_egipcio/__auto_13.jpg
+  artifactKey: Guid(ea6ccaec9c1bd9a4fa7e3cab178caaf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/egyptian-temple/templo_egipcio/__auto_13.jpg using Guid(ea6ccaec9c1bd9a4fa7e3cab178caaf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de1da3a032fa31095159172e0e5c276a') in 0.024232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/egyptian-temple/templo_egipcio/__auto_14.jpg
+  artifactKey: Guid(3829a98e13e2f46428b3258ef864827a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/egyptian-temple/templo_egipcio/__auto_14.jpg using Guid(3829a98e13e2f46428b3258ef864827a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cde339f620d4fa0db8c7a09b319ab4db') in 0.021284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/egyptian-temple/templo_egipcio/__auto_5.jpg
+  artifactKey: Guid(c13d3f111e89b3648b212de86d4f8dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/egyptian-temple/templo_egipcio/__auto_5.jpg using Guid(c13d3f111e89b3648b212de86d4f8dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a62cecdebff5bdb6176a9ab38079cc') in 0.018054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/egyptian-temple/templo_egipcio/templo_egipcio.dae
+  artifactKey: Guid(2bd4b0146488bc54b9f2e5d117b94a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/egyptian-temple/templo_egipcio/templo_egipcio.dae using Guid(2bd4b0146488bc54b9f2e5d117b94a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2df40082024d8e09c4552149b62ee41') in 3.062994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2743
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.764 seconds
+Refreshing native plugins compatible for Editor in 2.84 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.142 seconds
+Domain Reload Profiling: 1905ms
+	BeginReloadAssembly (292ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (91ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (389ms)
+		LoadAssemblies (490ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1143ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (491ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (375ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 2.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3085 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3618.
+Memory consumption went from 137.3 MB to 137.3 MB.
+Total: 4.337300 ms (FindLiveObjects: 0.398500 ms CreateObjectMapping: 0.099600 ms MarkObjects: 3.779000 ms  DeleteObjects: 0.057700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1005.665964 seconds.
+  path: Assets/egyptian-temple/textures/Columnas_AO.jpg
+  artifactKey: Guid(694e5ccb8d6b7a046af903eecbcdbfab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/egyptian-temple/textures/Columnas_AO.jpg using Guid(694e5ccb8d6b7a046af903eecbcdbfab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e13502c15edc30ccbe37c4c0e2d75a6b') in 0.080047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/egyptian-temple/textures/Columnas_metallic.jpg
+  artifactKey: Guid(df209e81802aa5b46953ecf247f021dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/egyptian-temple/textures/Columnas_metallic.jpg using Guid(df209e81802aa5b46953ecf247f021dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2036de351edfdbe71f8fc6c2ef262f85') in 0.021483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.361134 seconds.
+  path: Assets/egyptian-temple/textures/Detalles_Extra_albedo.jpg
+  artifactKey: Guid(b05ec33bfaee61c4dba5c7de4d623447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/egyptian-temple/textures/Detalles_Extra_albedo.jpg using Guid(b05ec33bfaee61c4dba5c7de4d623447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe1e6148d87c0f7f677e3d554b67e8f') in 0.019776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004981 seconds.
+  path: Assets/egyptian-temple/textures/Detalles_Extra_metallic.jpg
+  artifactKey: Guid(f311768793f008b4592daa09dbe28660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/egyptian-temple/textures/Detalles_Extra_metallic.jpg using Guid(f311768793f008b4592daa09dbe28660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83354303547aae0def036d6a79cad6aa') in 0.018972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/egyptian-temple/textures/Detalles_Extra_roughness.jpg
+  artifactKey: Guid(46d44f698a507ef4a90b2ecb013430be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/egyptian-temple/textures/Detalles_Extra_roughness.jpg using Guid(46d44f698a507ef4a90b2ecb013430be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a391dd5a37e106e7ba84e8ad7097fc8') in 0.019779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.013309 seconds.
+  path: Assets/egyptian-temple/textures/Escultura_Faraon_AO.jpg
+  artifactKey: Guid(12dab548cd49928468f6246ee44cbd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/egyptian-temple/textures/Escultura_Faraon_AO.jpg using Guid(12dab548cd49928468f6246ee44cbd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5725a732c1449b3331472c8ff986f5dc') in 0.018981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.015994 seconds.
+  path: Assets/egyptian-temple/textures/Escultura_Faraon_normal.png
+  artifactKey: Guid(1f52efe92fe038344baa7199bc7072eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/egyptian-temple/textures/Escultura_Faraon_normal.png using Guid(1f52efe92fe038344baa7199bc7072eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c190c247b612447c5131a1f92dedc123') in 0.018013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.246588 seconds.
+  path: Assets/egyptian-temple/textures/internal_ground_ao_texture.jpeg
+  artifactKey: Guid(14225066aed4321479f29f5dd7f70327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/egyptian-temple/textures/internal_ground_ao_texture.jpeg using Guid(14225066aed4321479f29f5dd7f70327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db396cfd8538e06c58d975a0ea520f35') in 0.017052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009609 seconds.
+  path: Assets/egyptian-temple/textures/Jarrones_AO.jpg
+  artifactKey: Guid(c6417064be8e02c4da495796032efcd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/egyptian-temple/textures/Jarrones_AO.jpg using Guid(c6417064be8e02c4da495796032efcd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a56c7b0bc748f493364783af95f9a9') in 0.024243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.018829 seconds.
+  path: Assets/egyptian-temple/textures/Jarrones_normal.png
+  artifactKey: Guid(29f1d2bd4b6680b499593e107633a442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/egyptian-temple/textures/Jarrones_normal.png using Guid(29f1d2bd4b6680b499593e107633a442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb820c3b7d0295bf03c1b4cd06c46b39') in 0.017548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/egyptian-temple/textures/Sala_Hipostila_albedo.jpg
+  artifactKey: Guid(dc8538de892da7b4e81a0eaa54e34b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/egyptian-temple/textures/Sala_Hipostila_albedo.jpg using Guid(dc8538de892da7b4e81a0eaa54e34b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b1b1196d6a7740f12fdd56dc1e8c22') in 0.020490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.013056 seconds.
+  path: Assets/egyptian-temple/textures/Sala_Hipostila_metallic.jpg
+  artifactKey: Guid(75e93df6f403e06478796aadc48d8f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/egyptian-temple/textures/Sala_Hipostila_metallic.jpg using Guid(75e93df6f403e06478796aadc48d8f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e3b5e6d7c4cba5a56d49129bc38f28') in 0.018543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.183069 seconds.
+  path: Assets/egyptian-temple/textures/Sala_Hipostila_roughness.jpg
+  artifactKey: Guid(063b6e1c8a8dd204eb15794201fbd488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/egyptian-temple/textures/Sala_Hipostila_roughness.jpg using Guid(063b6e1c8a8dd204eb15794201fbd488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba117e2cb4d3e1c80ee49072ad5d93f6') in 0.037656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.298099 seconds.
+  path: Assets/egyptian-temple/textures/Sala_Muralla_AO.jpg
+  artifactKey: Guid(a687080886a042244ba9163a13020aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/egyptian-temple/textures/Sala_Muralla_AO.jpg using Guid(a687080886a042244ba9163a13020aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f75fb6cdee318aa5c2a30341cb23e0c8') in 0.017012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009857 seconds.
+  path: Assets/egyptian-temple/textures/Sala_Muralla_normal.png
+  artifactKey: Guid(5a247a5c64c9169409fbb35615805560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/egyptian-temple/textures/Sala_Muralla_normal.png using Guid(5a247a5c64c9169409fbb35615805560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab32989e507d3308ba9750442b81f5fc') in 0.017629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/egyptian-temple/textures/Sala_Pilonos_albedo.jpg
+  artifactKey: Guid(4b6ebf771030c1448a87b9ed50cc20ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/egyptian-temple/textures/Sala_Pilonos_albedo.jpg using Guid(4b6ebf771030c1448a87b9ed50cc20ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd45b9188f07f3a7da4f0590adf3210') in 0.020115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.017341 seconds.
+  path: Assets/egyptian-temple/textures/Sala_Pilonos_metallic.jpg
+  artifactKey: Guid(ec32ef460c85eea4ab61980c08cbc177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/egyptian-temple/textures/Sala_Pilonos_metallic.jpg using Guid(ec32ef460c85eea4ab61980c08cbc177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145e6f86d957915568c98006cb7d4e7d') in 0.018770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/egyptian-temple/textures/Sala_Pilonos_roughness.jpg
+  artifactKey: Guid(b668ab01f770f5f4f9e897bd02307f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/egyptian-temple/textures/Sala_Pilonos_roughness.jpg using Guid(b668ab01f770f5f4f9e897bd02307f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fbc36e44e839cb21d3412a3e790e646') in 0.021588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/egyptian-temple/textures/Sala_Santuario_AO.jpg
+  artifactKey: Guid(8d1440db2a57b4a488d32d34fcdeea81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/egyptian-temple/textures/Sala_Santuario_AO.jpg using Guid(8d1440db2a57b4a488d32d34fcdeea81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '446d7044518bd1dd302dd2ce6d09dc2f') in 0.018593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.206317 seconds.
+  path: Assets/egyptian-temple/textures/Sala_Santuario_normal.png
+  artifactKey: Guid(c702dee8a26bbea4697c9c3913d253bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/egyptian-temple/textures/Sala_Santuario_normal.png using Guid(c702dee8a26bbea4697c9c3913d253bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '303c1c89db9406348219317fc433f98d') in 0.023245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.045657 seconds.
+  path: Assets/egyptian-temple/textures/Suelo_albedo.jpg
+  artifactKey: Guid(56206ce5ef4526149946243aeb188a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/egyptian-temple/textures/Suelo_albedo.jpg using Guid(56206ce5ef4526149946243aeb188a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a336d718fce3505055ea3190e3d1a97e') in 0.021560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/egyptian-temple/textures/Suelo_metallic.jpg
+  artifactKey: Guid(bd73038ab55b16b42a87d292ee75e09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/egyptian-temple/textures/Suelo_metallic.jpg using Guid(bd73038ab55b16b42a87d292ee75e09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '214efb5e94b1bc5f20fc4c4ea5a571ec') in 0.020789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.012496 seconds.
+  path: Assets/egyptian-temple/textures/Suelo_roughness.jpg
+  artifactKey: Guid(eb4ed8b6c314f134eae2b6e3e368cffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/egyptian-temple/textures/Suelo_roughness.jpg using Guid(eb4ed8b6c314f134eae2b6e3e368cffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53f023f201806dac16cb1b058d0d7f39') in 0.018758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
